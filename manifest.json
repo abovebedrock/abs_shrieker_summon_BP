@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [ "LJM12914" ]
+    },
+    "header": {
+        "name": "更恐怖的尖啸体",
+        "description": "基岩之上服务器模组。使玩家放置的幽匿尖啸体可以右键转化成可以生成监守者的变种。",
+        "min_engine_version": [ 1, 21, 1 ],
+        "uuid": "1a24a0f9-529a-48ee-8dbd-bde8f3bd9888",
+        "version": [ 1, 0, 0 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "1d8684fa-2abd-43cc-b261-d3483c32e628",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "e4d0fdba-362c-4e44-b1f5-1669ff7fdedc",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        }
+    ]
+}
